@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/home",
+    "pages/message/message",
+    "pages/profile/profile",
+    "pages/eventList/eventList",
+    "pages/alert/alert",
+    "pages/publish/publish",
+    "pages/event/event",
+    "pages/userDetail/userDetail",
+    "pages/chat/chat"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "社区交流平台",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#aa55ff",
+    "color": "#ccc",
+    "list": [
+      {
+        "text": "消息",
+        "iconPath": "static/image/message.png",
+        "selectedIconPath": "static/image/message1.png",
+        "pagePath": "pages/message/message"
+      },
+      {
+        "text": "首页",
+        "iconPath": "static/image/home.png",
+        "selectedIconPath": "static/image/home1.png",
+        "pagePath": "pages/home/home"
+      },
+      {
+        "text": "我的",
+        "iconPath": "static/image/my.png",
+        "selectedIconPath": "static/image/my1.png",
+        "pagePath": "pages/profile/profile"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

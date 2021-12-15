@@ -1,0 +1,95 @@
+
+.head {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	padding: 10px;
+	margin: 20px 0;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+}
+image {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+}
+.user-detail {
+	position: relative;
+}
+.upload {
+	padding: 10px 0;
+}
+.upload image {
+margin-left: 130px;
+}
+.user-detail view:nth-child(1) {
+	position: fixed;
+	top: 10px;
+	left: 10px;
+}
+.item {
+	margin: 15px 0 15px 15px;
+	color: rgb(116, 116, 116);
+}
+.user-detail button {
+	position: absolute;
+	left: 50%;
+	margin-top: 20px;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+.ipts {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	position: absolute;
+	width: 80%;
+	top: 50%;
+	left: 50%;
+	box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	padding: 10px;
+
+	background-color: #f2f2f2;
+}
+input {
+	margin: 10px 0;
+	padding: 2px;
+	border: 1px solid #00aaff;
+	width: 40%;
+	height: 20px;
+	border-radius: 10px;
+}
+textarea {
+	border: 1px solid #00aaff;
+	width: 80%;
+	height: 50px;
+	resize: none;
+	margin: 10px 0;
+}
+.submit {
+	margin: 10px 0;
+	width: 20%;
+	height: 30px;
+	font-size: 12px;
+	line-height: 20px;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, .3);
+	position: absolute;
+	left: 70%;
+	top: 20%;
+	padding: 3px;
+	background-color: rgb(183, 183, 255);
+	border-radius: 10px;
+	border: 1px solid #ccc;
+}
+button {
+	margin: 0 auto;
+}
+

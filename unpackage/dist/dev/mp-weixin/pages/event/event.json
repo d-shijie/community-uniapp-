@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-transition": "/uni_modules/uview-ui/components/u-transition/u-transition"
+  }
+}

@@ -1,0 +1,1 @@
+<block wx:if="{{show}}"><view class="alert"><view class="warn-text">{{''+wranText+''}}</view><view class="btns"><button size="mini" round="{{true}}" data-event-opts="{{[['tap',[['confirm',['$event']]]]]}}" bindtap="__e">确认</button><button size="mini" round="{{true}}" data-event-opts="{{[['tap',[['cancle',['$event']]]]]}}" bindtap="__e">取消</button></view></view></block>
